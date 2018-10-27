@@ -23,6 +23,7 @@
   margin: -8px;
   float: left;
   vertical-align: center;
+  z-index: 1;
 }
 #logo {
   height: 40px;
@@ -49,10 +50,20 @@
   text-align: center;
   text-decoration: none;
   color: black;
-  font-family: Titillium;
+  font-family: "Titillium";
 }
 #main {
-  
+  height: 500px;
+  z-index: 0;
+}
+#mainlogo img {
+  width: 250px;
+  height: auto;
+  margin-top: 50px;
+}
+#maintext {
+  font-size: 3em;
+  font-family: "UbuntuBold";
 }
 #footer {
 
