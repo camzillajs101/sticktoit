@@ -15,6 +15,19 @@
   font-family: Titillium;
   src: url('fonts/Titillium/Titillium-Regular.otf');
 }
+@font-face {
+  font-family: ExoLight;
+  src: url('fonts/exo-2/Exo2-Light.otf')
+}
+
+.no-a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-image: url('https://media1.tenor.com/images/004fc13cde571f3f9e2ddb8f5f1cc9ef/tenor.gif?itemid=12693690');
+}
 
 #navbar {
   position: fixed;
@@ -59,14 +72,36 @@
 #mainlogo img {
   width: 250px;
   height: auto;
-  margin-top: 50px;
 }
 #maintext {
   font-size: 3em;
+  color: white;
   font-family: "UbuntuBold";
 }
-#footer {
+#log-in, #get-started {
+  height: 40px;
+  width: 140px;
+  border: 1px solid lightgray;
+  font-family: "ExoLight";
+  font-size: 1em;
+  cursor: pointer;
+}
+#log-in {
+  background-color: rgba(240,240,240,0.4);
+}
+#get-started {
+  background-color: #256adb;
+  color: white;
+}
+#get-started:hover, #log-in:hover {
+  border: 1px solid gray;
+}
 
+#input-box {
+  margin-top: 200px;
+  height: 400px;
+  background-color: lightgray;
+  opacity: 0.5;
 }
 
 h2 {
